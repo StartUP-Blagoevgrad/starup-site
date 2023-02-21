@@ -75,12 +75,8 @@
           }
         },
         "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+          "builder": "@angular-builders/jest:run",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
@@ -96,6 +92,7 @@
     }
   },
   "cli": {
-    "analytics": "0a8cb8cf-19c2-429e-abbf-888df95780ea"
+    "analytics": "0a8cb8cf-19c2-429e-abbf-888df95780ea",
+    "defaultCollection": "@angular/cli"
   }
 }
