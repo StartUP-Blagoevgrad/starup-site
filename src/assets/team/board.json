@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Martin Stanchev",
+        "role": "President",
+        "picture_url": "",
+        "linkedIn": "",
+        "email": ""
+    },
+    {
+        "name": "Antonia Rusalieva",
+        "role": "Vice President",
+        "picture_url": "",
+        "linkedIn": "",
+        "email": ""
+    },
+    {
+        "name": "Elena Zaharieva",
+        "role": "Vice President",
+        "picture_url": "",
+        "linkedIn": "",
+        "email": ""
+    },
+    {
+        "name": "Kris Petrov",
+        "role": "Treasurer",
+        "picture_url": "",
+        "linkedIn": "",
+        "email": ""
+    }
+]
