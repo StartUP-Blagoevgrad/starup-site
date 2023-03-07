@@ -4,10 +4,11 @@ import { NavigationMenuComponent } from './shared/components/navigation-menu/nav
 import { AppComponent } from './app.component';
 import { TeamComponent } from './pages/team-page/team.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
+import { BoardComponent } from './components/departments/board/board.component';
 
 @NgModule({
   declarations: [
-    AppComponent, NavigationMenuComponent, TeamComponent, EventsPageComponent
+    AppComponent, NavigationMenuComponent, TeamComponent, EventsPageComponent, BoardComponent
   ],
   imports: [
     BrowserModule
