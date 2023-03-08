@@ -6,6 +6,12 @@ import { TeamComponent } from './pages/team-page/team.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
 import { BoardComponent } from './components/departments/board/board.component';
 
+import { BoardComponent } from './components/departments/board/board.component';
+import { ItComponent } from './components/departments/it/it.component';
+import { MarketingComponent } from './components/departments/marketing/marketing.component';
+import { SpeakersComponent } from './components/departments/speakers/speakers.component';
+//import { SponsorshipComponent } from './components/departments/Sponsorship/';
+
 @NgModule({
   declarations: [
     AppComponent, NavigationMenuComponent, TeamComponent, EventsPageComponent, BoardComponent
