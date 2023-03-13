@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { NavigationMenuComponent } from './shared/components/navigation-menu/navigation-menu.component';
 import { AppComponent } from './app.component';
+import { DepartmentService } from './shared/services/department.service';
 import { TeamComponent } from './pages/team-page/team.component';
 import { EventsPageComponent } from './pages/events-page/events-page.component';
 
@@ -13,12 +14,12 @@ import { SponsorshipComponent } from './components/departments/Sponsorship/spons
 
 @NgModule({
   declarations: [
-    AppComponent, NavigationMenuComponent, TeamComponent, EventsPageComponent, BoardComponent
+    AppComponent, NavigationMenuComponent, TeamComponent, EventsPageComponent, BoardComponent, ItComponent, MarketingComponent, SpeakersComponent, SponsorshipComponent
   ],
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [DepartmentService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
