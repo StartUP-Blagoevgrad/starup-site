@@ -1,0 +1,27 @@
+.department-tabs {
+    background-color: #f2f2f2;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .department-tabs button {
+    background-color: #ddd;
+    color: #444;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .department-tabs button:last-child {
+    margin-right: 0;
+  }
+  
+  .team-container {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
