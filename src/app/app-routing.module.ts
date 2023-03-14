@@ -9,6 +9,31 @@ const routes: Routes = [
         component: TeamComponent,
         //canActivate: [AuthGuardService]
     },
+    { 
+        path: 'speakers', 
+        component: TeamComponent, 
+        data: { endpoint: 'speakers' } 
+    },
+    { 
+        path: 'it', 
+        component: TeamComponent, 
+        data: { endpoint: 'it' } 
+    },
+    { 
+        path: 'marketing', 
+        component: TeamComponent, 
+        data: { endpoint: 'marketing' } 
+    },
+    { 
+        path: 'board', 
+        component: TeamComponent, 
+        data: { endpoint: 'board' } 
+    },
+    { 
+        path: 'sponsorship', 
+        component: TeamComponent, 
+        data: { endpoint: 'sponsorship' }
+    },
     {
         path: 'events',
         component: EventsPageComponent,
